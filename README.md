@@ -18,20 +18,20 @@ This is a simplified version of dso, only 2 threads are left, and a bug existing
 
 1. build the repo  
 
-'''
+```
     $git clone git@github.com:qqadssp/dso2  
     $cd dso2/build  
     $cmake ..  
     $make  
-'''
+```
 
 2. run
 
-'''
+```
     $dso_main calib=./tumrgb/freiburg2.txt  
-'''
+```
 
-**Datasets**: Please download the imagedata(such as [tum rgbd freiburg2_desk](https://vision.in.tum.de/rgbd/dataset/freiburg2/rgbd_dataset_freiburg2_desk.tgz)) and change the path in 'dso_mian.cpp'.
+**Datasets**: Please download the imagedata(such as [tum rgbd freiburg2_desk](https://vision.in.tum.de/rgbd/dataset/freiburg2/rgbd_dataset_freiburg2_desk.tgz)) and change the path in `dso_mian.cpp`.
 
 ### Demo
 
